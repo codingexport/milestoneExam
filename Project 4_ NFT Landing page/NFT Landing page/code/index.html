@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        /* background-color:  #ee36ff06; */
+  
+        background-color: #030313;
+        color: #ffffff;
+      }
+      .bg-color{
+        background:radial-gradient(
+          circle,
+          #000000e6,
+          #3615490e,
+          #1c082792,
+          #21112c4a,
+          #40154450,
+          #2c0e2f50,
+          #080708e2
+        );
+      }
+      .bg-color-2{
+        background-color: #030313;
+      }
+     .brd-color{
+      border-color: #5f2092;
+     }
+
+      .gradient-bg {
+        background:linear-gradient(
+          120deg,
+          #c73bd4ce,
+          #b536ff0e,
+          #b536ff0e,
+          #b536ff0e,
+          #b536ff0e,
+          #b536ff0e,
+          #b536ff0e
+        );
+        border-bottom: 1px solid #80808000;
+        border-bottom-right-radius: 10em;
+        border-bottom-left-radius: 10em;
+        
+      }
+      .gradient-bg-1 {
+        background:linear-gradient(
+          120deg,
+          #d40ae7ce,
+          #b536ff0e,
+          #ee36ff0a,
+          #ee36ff08,
+          #ee36ff0e,
+          #ee36ff06
+        );
+        border-bottom: 1px solid rgba(128, 128, 128, 0);
+        border-bottom-right-radius: 10em;
+        border-bottom-left-radius: 10em;
+        
+      }
+      .bg-custom-gradient {
+        background: linear-gradient(
+          450deg,
+          #ec31fd,
+          #fbfbfb14,
+          #fbfbfb14,
+          #fbfbfb14,
+          #fbfbfb14
+        );
+        
+      }
+      .bg-custom-gradient-1{
+        background: linear-gradient(
+          520deg,
+          #ffab36,
+          #fbfbfb14,
+          #fbfbfb14,
+          #fbfbfb14
+        );
+        
+      }
+
+      .bg-custom-gradient-2{
+        background: radial-gradient(circle at center, #ff0000, #fbfbfb14,#fbfbfb14,#fbfbfb14)
+        
+      }
+      .bg-custom-gradient-3{
+        background: linear-gradient(
+          520deg,
+          #36e8ff,
+          #fbfbfb14,
+          #fbfbfb14,
+          #fbfbfb14
+        );
+        
+      }
+
+      .bg-custom-gradient-4{
+        background: radial-gradient(circle, #1be4ef, #fbfbfb14,#fbfbfb14,#fbfbfb14)
+        
+      }
+
+
+      .btn-color {
+        border-color: #d640fb #50cdff #cf5bf6f8 #7cceec;
+        background: linear-gradient(
+          45deg,
+          #9a27d32e,
+          #030313,
+          #030313,
+          #030313,
+          #030313,
+          #ebdc9d
+        );
+      }
+
+     .text-bg{
+       background: linear-gradient(360deg,#b75bd0,rgb(65, 2, 149));
+       border-radius: 100px;
+     }
+     .text-bg-2{
+      background: linear-gradient(360deg,#b75bd0,rgb(65, 2, 149));
+      border-radius: 100%;
+      padding-left: 18px;
+      position: relative;
+      right: 15px;
+      bottom: 3px;
+     }
+     .img-relative{
+      position: absolute;
+      bottom: 51em;
+     }
+     .color-border{
+      border: 3px solid;
+      border-left: none;
+      border-top-right-radius: 10em;
+      border-bottom-right-radius: 10em;
+      border-top-color: #d640fb;
+      border-bottom-color: #40ccfb;
+      border-right-color: #b75bd0;
+      padding: 30px;
+      width: 70em;
+     }
+     .absolute-1{
+      position: absolute;
+      left: 50em;
+     }
+    </style>
+  </head>
+  <body class="font-sans leading-normal tracking-normal">
+    <!-- header section  -->
+    <main class="max-w-[1200px] w-[100%] m-auto bg-color">
+      <header class="bg-custom-gradient py-4 shadow-xl border-b-2">
+        <div class="container mx-auto flex justify-between items-center px-4">
+          <div class="text-2xl font-bold">
+            <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/logo.png" alt="" />
+          </div>
+          <nav>
+            <ul class="flex space-x-6 gap-8">
+              <li><a href="#" class="hover:text-gray-300">Marketplace</a></li>
+              <li><a href="#" class="hover:text-gray-300">About</a></li>
+              <li><a href="#" class="hover:text-gray-300">Resources</a></li>
+              <li><a href="#" class="hover:text-gray-300">FAQ</a></li>
+            </ul>
+          </nav>
+          <div class="space-x-3">
+            <button class="border  p-2 pl-6 pr-6 rounded-lg btn-color">
+              Log In
+            </button>
+            <button class="border p-2 pl-6 pr-6 rounded-lg btn-color">Sign Up</button>
+          </div>
+        </div>
+      </header>
+      <!-- hero - section  -->
+      <section class="gradient-bg pb-11">
+      <div class="container mx-auto flex justify-between ">
+        <div class="mt-48">
+          <p class="text-7xl mb-20 opacity-75 font-sans">Keep Calm & <br>Collect Your NFTs.</p>
+          <p class="mb-24 opacity-70 font-thin">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae veniam explicabo <br> laboriosam, exercitationem minus animi illum, numquam blanditiis qui facilis <br>  Nemo accusamus omnis explicabo eos.</p>
+          <div class="flex gap-7 mt-16">
+            <img class="w-10" src="/NFT Landing page/assets/play-button-arrowhead.png" alt="">
+            <p><span class="font-semibold text-xl">Let's get started</span> <br> <span class="opacity-70">Watch this quick damo video to see <br> how to get started</span></p>
+
+          </div>
+        </div>
+        <div>
+          <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/image.png" alt="">
+        </div>
+      </div>
+    </section>
+    <div class="text-center relative right-10 mt-20 mb-12 ">
+      <p class="text-slate-400 text-2xl"><span class="text-bg pl-3 pt-3 pb-2"> <span class="relative left-3 top-1 ">Top</span></span> <span class="relative left-4 top-1">Creators</span></p>    
+    </div>
+    <!-- map  -->
+    <div class="mx-auto container ">
+      <div class="relative">
+        <img class="m-4" src="/Project 4_ NFT Landing page/NFT Landing page/assets/map.png" alt="">
+      <img class="absolute top-9 left-40" src="/Project 4_ NFT Landing page/NFT Landing page/assets/person.png" alt="">
+      <img class="absolute top-40 left-80" src="/Project 4_ NFT Landing page/NFT Landing page/assets/person.png" alt="">
+      <img class="absolute top-96 left-96" src="/Project 4_ NFT Landing page/NFT Landing page/assets/person.png" alt="">
+      <div class="flex justify-end">
+      <img class="absolute top-7" src="/Project 4_ NFT Landing page/NFT Landing page/assets/person.png" alt="">
+      <img class="absolute top-20 right-96" src="/Project 4_ NFT Landing page/NFT Landing page/assets/person.png" alt="">
+      <img class="absolute top-80 right-96" src="/Project 4_ NFT Landing page/NFT Landing page/assets/person.png" alt="">
+      <img class="absolute top-44 right-80" src="/Project 4_ NFT Landing page/NFT Landing page/assets/person.png" alt="">
+      </div>
+    </div>
+  <div class="flex justify-center">
+    <button class="btn-color border p-3 rounded-md">View All Collectors</button>
+  </div>
+  </div>
+    </div>
+    <!-- latest nft Collections -->
+    <div class="flex justify-around mt-32  ">
+      <div class="grid grid-cols-2 gap-20 ">
+        <div class="border p-2 relative bottom-10">
+           <div class="btn-color p-5 relative left-10 bottom-10">
+             <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/Image 1.png" alt="">
+           </div>
+          <div class="ml-10">
+            <p>Ancient Ones</p>
+            <p>5.0ETH</p>
+          </div>
+        </div>
+        <div class="border p-2 ">
+          <div class="relative left-10 bottom-10">
+            <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/merlin.png" alt="">
+          </div> 
+          <div class="ml-10">
+              <p>Lost In Space</p>
+              <p>3.2ETH</p>
+          </div>
+        </div>
+        <div class="border p-2 relative bottom-10 ">
+           
+          <div class="bg-gray-800 p-4 relative left-10 bottom-10">
+          <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/Avatar 1.png" alt="">
+          </div>
+          <div class="ml-10">
+            <p>God of War</p>
+            <p>7.0ETH</p>
+          </div>
+          
+        </div>
+        <div class="border p-4 ">
+         <div class="relative bottom-10 left-10 ">
+          <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/Avatar2.png" alt="">
+         </div>
+         <div class="ml-10">
+          <p>The Watchers</p>
+          <p>3.2ETH</p>
+         </div>
+        </div>
+      </div>
+      <div class="relative top-16">
+        <p class="text-gray-300 text-5xl"><span class=" pl-3 pt-3 pb-2"> <span class="text-bg-2"> <span class="relative left-4 top-1">La</span></span><span >test</span></span> <span class="relative left-3">NFT Creators</span></p>    
+         <p class="mt-11 ml-9 mb-24 opacity-70 font-thin text-lime-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Mollitia quisquam inventore placeat adipisci reiciendis <br> quo aspernatur nulla accusantium sed alias incidunt <br> libero aut, fugit, veritatis  modi eos minima. Quo, unde?</p>
+         <button class="border p-3 pl-16 pr-16 rounded-lg btn-color relative  left-10">View All Collectors</button>
+        </div>
+    </div>
+    <!-- Why Choose Us ? -->
+     <section class="mt-52 flex  gap-96 color-border bg-color-2">
+      <div>
+        <p class="text-gray-300 text-5xl ml-4"><span class=" pl-3 pt-3 pb-2"> <span class="text-bg-2"> <span class="relative left-4 top-1">W</span></span><span >hy</span></span> <span class="relative left-3">Choose Us?</span></p>    
+        <p class="text-lime-600 opacity-70 mt-10 ml-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Mollitia quisquam inventore placeat adipisci reiciendis <br> quo aspernatur nulla accusantium sed alias incidunt <br> libero aut, fugit, veritatis  modi eos minima. Quo, unde?</p>
+        <p class="text-lime-600 opacity-70 mt-4 ml-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit.br <br> Cupiditate voluptas esse a, quae fugit eveniet totam <br> ad, voluptatibus blanditiis natus repellat? <br> A nam eligendi, reprehend</p>
+      </div>
+      <div class="grid absolute-1   grid-cols-2 gap-6 ">
+        <div class="border relative bg-custom-gradient-1 top-8 pr-8 pl-8 pt-4 pb-4 rounded-lg">
+          <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/wallet-one.png" alt="">
+        </div>
+        <div class="border relative top-8  bg-custom-gradient-2 pr-8 pl-8 pt-4 pb-4 rounded-lg">
+          <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/wallet-one.png" alt="">
+        </div>
+        <div class="border relative top-8 left-10 bg-custom-gradient-3  pr-8 pl-8 pt-4 pb-4 rounded-lg">
+          <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/wallet-one.png" alt="">
+        </div>
+        <div class="border relative top-8 left-10 bg-custom-gradient-4 pr-8 pl-8 pt-4 pb-4 rounded-lg">
+          <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/wallet-one.png" alt="">
+        </div> 
+      </div>
+     </section>
+     <!-- Create And Sell Your NFTs -->
+     <p class="text-gray-300 text-5xl text-center mt-20"><span class=" pl-3 pt-3 pb-2"> <span class="text-bg-2"> <span class="relative left-4 top-1">Cr</span></span><span >eate</span></span> <span class="relative left-3">And Sell Your NFTs</span></p>    
+     <section class="flex justify-evenly mt-32 border-b pb-32 rounded-full brd-color ">
+      <div>
+        <img class="ml-14" src="/Project 4_ NFT Landing page/NFT Landing page/assets/wallet-one.png" alt="">
+        <p class="mt-3 mb-3 text-xl font-bold text-center ">Set Up Your Wallet</p>
+        <p class="text-gray-300">Once you'be set up your <br> wallet of choice, connect it <br>to opensea by clicking the <br>wallet icon inn the top right <br> corner . learn about the <br> wallet we support.</p>
+      </div>
+      <div>
+        <img class="ml-14" src="/Project 4_ NFT Landing page/NFT Landing page/assets/triangle-round-rectangle.svg" alt="">
+        <p class="mt-3 mb-3 text-xl font-bold text-center ">Create Your Collection</p>
+        <p class="text-gray-300">Click My Collections and <br> set up your collection . add <br> social links a description, <br> profile & banner images, <br> and set a secondary sales <br> fee</p>
+      </div>
+      <div>
+        <img class="ml-14" src="/Project 4_ NFT Landing page/NFT Landing page/assets/picture.png" alt="">
+        <p class="mt-3 mb-3 text-xl font-bold text-center ">Add Your NFTs</p>
+        <p class="text-gray-300">Upload your work image <br> video audio or 3d art <br> add a title and description <br> and customize your nfts <br> with properties stats and  <br> unlockable content</p>
+      </div>
+      <div>
+        <img class="ml-14" src="/Project 4_ NFT Landing page/NFT Landing page/assets/shopping-bag.svg" alt="">
+        <p class="mt-3 mb-3 text-xl font-bold text-center">List Them For Sale</p>
+        <p class="text-gray-300">Choose between auctions <br> fixed-price listings . You <br>chosse how you want to <br>sell your nfts and we help <br> you sell them</p>
+      </div>
+     </section>
+     <!-- ready for next nft drop? -->
+      <section class=" text-center mt-9">
+        <p class="mb-8  text-4xl">Ready for Next NFt Drop?</p>
+        <input type="email" class="mb-8 px-10 py-3 bg-gray-900" placeholder="Yourmail@xyz.com">
+        <br>
+        <button class="border p-3 pl-16 pr-16 rounded-lg btn-color relative">Send email</button>
+      </section>
+      <!-- footer -->
+      <footer class="mt-20 border-t-2 border-pink-300 bg-gray-950 flex justify-evenly bg-color-2">
+       <div class="mt-10">
+        <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/logo.png" alt="">
+        <p class="mt-6">Amazing  NFTs Marketplace, Authentic and Unique <br> digital creation</p>
+        <div class="flex gap-4 mt-10">
+        <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/whatsapp.png" alt="" class="border rounded-full p-1 border-gray-800">
+        <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/fb.png" alt="" class="border rounded-full pr-3 pl-3 pt-1 pb-1 border-gray-800">
+        <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/insta.png" alt="" class="border rounded-full p-1 border-gray-800">
+        <img src="/Project 4_ NFT Landing page/NFT Landing page/assets/yt.png" alt="" class="border rounded-full p-1 border-gray-800">
+        </div>
+       </div>
+       <div class="flex flex-col mt-10 gap-3">
+        <a class="mb-5 text-xl font-bold">Marketplace</a>
+        <a href="#">Explore</a>
+        <a href="#">NFTs</a>
+        <a href="#">Collectibles</a>
+        <a href="#">Virtual Reality</a>
+       </div>
+       <div class="flex flex-col mt-10 gap-3">
+        <a href="#" class="mb-5 text-xl font-bold">Resources</a>
+        <a href="#">Help Center</a>
+        <a href="#">Partners</a>
+        <a href="#">Blog</a>
+        <a href="#">Newsletter</a>
+       </div>
+       <div class="flex flex-col mt-10 gap-3">
+        <a href="#" class="mb-5 text-xl font-bold">Company</a>
+        <a href="#">About us</a>
+        <a href="#">Careers</a>
+        <a href="#">Support</a>
+        <a href="#">Newsletter</a>
+       </div>
+           </footer>
+           <div  class="flex mt-8 justify-around text-gray-500 bg-color-2">
+            <p>Copyright 2022 sapphire, All right reserved.</p>
+            <p class="relative left-72">Privacy Policy</p>
+            <p>Terms & conditions</p>
+           </div>
+    </main>
+  </body>
+</html>
